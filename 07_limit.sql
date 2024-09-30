@@ -1,0 +1,1 @@
+Select * from actor limit 5; -- Limit dice cuantas filas va a traer de datos
