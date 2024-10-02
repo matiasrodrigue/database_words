@@ -1,0 +1,1 @@
+Select * from actor where edad between 4 and 50; -- Trae los valores entre 4 y 50, recordar siempre que se empieza por el valor mas pequeño al mayor

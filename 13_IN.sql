@@ -1,0 +1,1 @@
+Select * from actor where first_name in ("MATIAS","AGUSTIN"); -- Es una manera de hacer un AND, pero mas acotado
