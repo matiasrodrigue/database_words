@@ -1,0 +1,1 @@
+Select count(edad) from actor having count(edad) > 0; -- Cuenta cuantas edades mayores a 0 hay en la tabla

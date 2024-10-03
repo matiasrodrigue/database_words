@@ -1,0 +1,1 @@
+Select first_name, last_name, ifnull(edad,0) as "Edad" from actor; -- Con IFNULL remplazo los valores nulos por lo que desee y con as doy nombre a la columna
