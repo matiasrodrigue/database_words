@@ -1,1 +1,1 @@
-update actor set edad =  22 where actor_id = 203;
+update actor set edad =  22 where actor_id = 203; -- Siempre usar "where" porque podes editar toda la tabla de lo contrario
