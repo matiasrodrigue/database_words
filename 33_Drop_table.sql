@@ -1,0 +1,1 @@
+Drop table name_table; -- Este comando lo usaremos cuando querramos eliminar una tabla
