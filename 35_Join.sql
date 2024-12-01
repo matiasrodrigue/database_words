@@ -4,14 +4,10 @@ use my_table;
 use my_table;
 
 select * from dueños_de_mascotas
-inner join documentos_de_identidad -- Aqui traigo todos los datos de las tablas "dueños_de_mascotas" y "documentos_de_identidad"
+inner join documentos_de_identidad -- Aqui traigo todos los datos de las tablas "dueños_de_mascotas" y "documentos_de_identidad" en comun
 on dueños_de_mascotas.id_mascota = documentos_de_identidad.id_mascota -- juntas la informacion de dos tablas "dueños_de_mascotas" y "documentos_de_identidad"
 inner join medico_veterinario
 on medico_veterinario.dni= documentos_de_identidad.dni;
-
-
-
-
 
 -- Este ejemplo solo trae nombre de mascota y nombre de dueño de mascota
 
@@ -24,4 +20,7 @@ on medico_veterinario.dni= documentos_de_identidad.dni;
 
 
 /*left join*/
- -- change to fran
+
+select * from dueños_de_mascotas
+left join documentos_de_identidad -- Aqui traigo todos los datos de las tablas "dueños_de_mascotas" y los que no esten en comun en "documentos_de_identidad"  traigo el campo como null
+on dueños_de_mascotas.id_mascota = documentos_de_identidad.id_mascota; -- juntas la informacion de dos tablas "dueños_de_mascotas" y "documentos_de_identidad"
