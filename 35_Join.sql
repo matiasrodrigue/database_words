@@ -24,6 +24,4 @@ on medico_veterinario.dni= documentos_de_identidad.dni;
 
 
 /*left join*/
-
--- Test
-
+ -- change to fran
