@@ -23,7 +23,7 @@ id_especialidad int not null,
 nombre_especialidad varchar(45)
 );
 
-/*Aqui se se la relacion N a M*/
+/* Aqui se se la relacion N a M */
 
 create table Medico_especialidad(  -- tabla intermedia
 id_medico_especialidad int not null primary key,
