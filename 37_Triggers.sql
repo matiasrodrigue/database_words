@@ -25,3 +25,8 @@ delimiter;
 
 
 -- remplazo mi mail y guardo el anterior en la nueva tabla
+
+
+-- Para eliminar un trigger es 
+
+Drop g_new_email;

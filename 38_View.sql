@@ -7,3 +7,7 @@ from dueños_de_mascotas
 where id_mascota >= 2;
 
 Select * from v_nombre_de_macotas;
+
+-- Para eliminar una view es 
+
+Drop v_nombre_de_macotas;
