@@ -17,6 +17,6 @@ result = cursor.fetchall()
 
 for row in result:
     print(row)
-
+ 
 cursor.close()
 connection.close()
